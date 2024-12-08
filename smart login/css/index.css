@@ -1,0 +1,55 @@
+:root{
+    --bagcolor:#24353F;
+    --colormain:#17A2B8;
+  --font-family:  Arial, Helvetica, sans-serif;    
+}
+body{
+    background-color: var(--bagcolor);
+}
+h1{
+    font-family: var(--font-family);
+    color: var(--colormain);
+}
+.sign-up{
+    box-shadow:-5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+input[type='text'],[type='email'],[type='password']{
+    background-color: var(--bagroundcolor);
+
+}
+
+.form-control:focus{
+background-color: transparent;
+border-radius: #80bdff;
+box-shadow: none;
+}
+.form-control{
+    color: #fff !important;
+
+}
+button{
+    width: 100%;
+    padding: 5px;
+    background-color: var(--bagroundcolor);
+border: 1px solid var(--colormain);
+color: var(--colormain);
+border-radius: 5px;
+font-size: 16px;
+}
+button:hover{
+    background-color: #17A2B8;
+    color: #ffff;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.h3{
+    font-size: 20px;
+color: #fff;
+}
+button{
+    padding:10PX 10;
+}
